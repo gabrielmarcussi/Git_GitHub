@@ -48,3 +48,28 @@ git diff nome.arquivo mostra apenas as alterações que ocorreram naquele arquiv
 git chekout [branch] -- [nome.arquivo] volta o arquivo ao seu estado inicial.
 
 //------------------------------------------------------------------------------------------
+
+//GERANDO A CHAVE PARA RECONHECER SEU COMPUTADOR AO CONECTAR EM UM REPOSITORIO GIT.--------
+
+https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Open Git Bash.
+
+Paste the text below, substituting in your GitHub email address.
+
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+This creates a new ssh key, using the provided email as a label.
+
+> Generating public/private rsa key pair.
+
+//------------------------------------------------------------------------------------------
+
+//VINCULANDO UM REPOSITORIO A UM PROJETO ---------------------------------
+
+git remote add origin URL REPOSITORIO GIT
+
+git fetch (pull / buscar)
+
+git push (envia)
+
+//------------------------------------------------------------------------------------------
