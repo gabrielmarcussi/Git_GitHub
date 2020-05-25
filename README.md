@@ -32,3 +32,19 @@ Criando Branch [git branch [nome]]
 Alterando de branch [git checkout nome_branch]
 
 //------------------------------------------------------------------------------------------
+
+//GIT DIFF ---------------------------------------------------------------------------------
+
+git diff mostra todas as alterações que ocorream durante o projeto
+
+git diff --name-only mostra o nome dos arquivos que sofreram alterações
+
+git diff nome.arquivo mostra apenas as alterações que ocorreram naquele arquivo em especifico.
+
+//------------------------------------------------------------------------------------------
+
+// RETORNANDO ARQUIVOS ESPECIFICOS ---------------------------------------------------------
+
+git chekout [branch] -- [nome.arquivo] volta o arquivo ao seu estado inicial.
+
+//------------------------------------------------------------------------------------------
