@@ -22,3 +22,13 @@ hard - ignora tudo que não existe antes perdendo todos os arquivos até o deter
 git reset --hard xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [id commit]
 
 //------------------------------------------------------------------------------------------
+
+// GIT BRANCH ------------------------------------------------------------------------------
+
+git branch lista todas as branchs [* é onde vc está]
+
+Criando Branch [git branch [nome]]
+
+Alterando de branch [git checkout nome_branch]
+
+//------------------------------------------------------------------------------------------
