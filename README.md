@@ -64,7 +64,7 @@ This creates a new ssh key, using the provided email as a label.
 
 //------------------------------------------------------------------------------------------
 
-//VINCULANDO UM REPOSITORIO A UM PROJETO ---------------------------------
+//VINCULANDO UM REPOSITORIO A UM PROJETO -------------------------------------------------
 
 git remote add origin URL REPOSITORIO GIT
 
@@ -73,3 +73,17 @@ git fetch (pull / buscar)
 git push (envia)
 
 //-----------------------------------------------------------------------------------------
+
+// GITIGNORE ------------------------------------------------------------------------------
+
+criar um arquivo .gitignore 
+
+IGNORANDO ARQUIVOS - dentro desse arquivo podemos colocar o nome dos arquivos que vamos ignorar.
+[teste.txt] ele não irá aparecer no commit.
+
+IGNORANDO TIPOS DE ARQUIVOS - (*.json ou *.xml)
+
+IGNORANDO PASTAS - NOME_DA_PASTA/
+
+//-----------------------------------------------------------------------------------------
+
